@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  .buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+    .rotate {
+      margin-top: 45px;
+      margin-left: -3px;
+      position: relative;
+      transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+      .inner {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+      }
+    }
+  }
+}
